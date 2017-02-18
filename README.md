@@ -1,5 +1,7 @@
 # Notes on Deep Learning
-An online reference I update as I continue to grow my deep learning skills. 
+An online reference I update as I continue to grow my deep learning skills.
+![](https://media.giphy.com/media/MoYC1N4nv7Fcs/giphy.gif)
+
 
 ## Recurrent Neural Networks (RNN) 
 RNNs are designed to handle sequences of information. Situating an input within the context of a sequence allows the RNN to utilize context to better identify patterns in the data. These sequences can be of a time series nature (e.g. stills from a video feed), but need not be. Examples include sequences of letters or words, item IDs within a shopping cart, etc. 
