@@ -4,8 +4,8 @@ RNNs are designed to handle sequences of information. Situating an input within 
 To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
 
 
-
-![A recurrent neural net](https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif)
+<p align="center"><b>Figure 1: A Many-to-One Recurrent Neural Network Processes Sequences Three Elements in Length </b></p>
+![A recurrent neural net](https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif =740x385)
 
 ### References
 
