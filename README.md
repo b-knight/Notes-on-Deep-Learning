@@ -6,7 +6,7 @@ To build a RNN, let's get some terminology under our belts. Let *X* and *Y* repr
 
 ![](https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/Images/RNN.gif)
 
-![Alt Text](https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gi)
+![Alt Text](https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif)
 
 ## References
 ### Recurrent Neural Networks & LSTM
