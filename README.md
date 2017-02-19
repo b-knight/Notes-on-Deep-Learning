@@ -7,6 +7,12 @@ To build a RNN, let's get some terminology under our belts. Let *X* and *Y* repr
 <p align="center"><b>Figure 1: A Many-to-One Recurrent Neural Network with Sequences Three Elements in Length </b></p>
 <img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif" alt="A recurrent neural net" width="740" height="385">
 
+## Long Short Term Memory (LSTM) Networks
+
+<p align="center"><b>Figure 2: Walk-Through of a LSTM Cell </b></p>
+<img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/LSTM.gif" alt="Walk-Through of a LSTM Cell">
+
+
 ### References
 
 - Karpathy, Andrej. [MachineLearner]. (2016, June 14th). *CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM*. Retrieved from https://www.youtube.com/watch?v=iX5V1WpxxkY.
