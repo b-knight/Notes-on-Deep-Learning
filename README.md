@@ -4,8 +4,9 @@ RNNs are designed to handle sequences of information. Situating an input within 
 To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
 
 
-![fdsdfasf](https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/RNN.gif)
+![fdsdfasf](https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/RNN.gif "Logo Title Text 1")
 ![](https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/RNN.gif)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 
