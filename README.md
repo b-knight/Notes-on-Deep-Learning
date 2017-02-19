@@ -1,30 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<!-- 	<title>Reexamining Heckscher-Ohlin in the Age of Inequality</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/_config.yml">
-	<script type="text/javascript" 
-		async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>	
-	<meta name="viewport" content="width=device-width, initial-scale=1"> -->
-</head>
-
-<h1> Notes on Recurrent Neural Networks (RNN) &amp; Long Short-Term Memory (LSTM) Models</h1>
+# Notes on Recurrent Neural Networks (RNN) & Long Short-Term Memory (LSTM) Models 
 RNNs are designed to handle sequences of information. Situating an input within the context of a sequence allows the RNN to utilize context to better identify patterns in the data. These sequences can be of a time series nature (e.g. stills from a video feed), but need not be. Examples include sequences of letters or words, item IDs within a shopping cart, etc. <br>
 
 To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
 
-<p align="center"><b>Figure 1: Management of Original Categorical Variables into Features </b></p>
-<div>
-<div align="center">
-<img src="https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/img/RNN.gif" align="middle" width="565" height="368" />
-</div>
-</div>
+
+
+![](https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/RNN.gif)
 
 
 
-<h2> References </h2>
+
+## References
+### Recurrent Neural Networks & LSTM
 
 - Karpathy, Andrej. [MachineLearner]. (2016, June 14th). *CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM*. Retrieved from https://www.youtube.com/watch?v=iX5V1WpxxkY.
 
