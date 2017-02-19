@@ -1,7 +1,7 @@
 # Recurrent Neural Networks (RNN) & Long Short-Term Memory (LSTM) Models 
 **Benjamin S. Knight**, February 18th, 2017
 
-While [neural nets](https://en.wikipedia.org/wiki/Artificial_neural_network) excel at pattern recognition, certain types of problems require utilizing information from an observation's broader context. Deciphering hand-written text in cursive is one such example. The task of identifying an individual character becomes far more tractable if we can also leverage classifications of the preceeding and subsequent characters as well. With these types of highly contextualized problems, pattern recognition effectively becomes sequence recognition. These sequences can be of a time series nature (e.g. stills from a video feed), but need not be. Examples include sequences of letters, words, or even items within a shopping cart.
+While [neural nets](https://en.wikipedia.org/wiki/Artificial_neural_network) excel at pattern recognition, certain types of problems require utilizing information from an observation's broader context. Deciphering hand-written text in cursive is one such example (Bezerra et al 2012). The task of identifying an individual character becomes far more tractable if we can also leverage classifications of the preceeding and subsequent characters as well. With these types of highly contextualized problems, pattern recognition effectively becomes sequence recognition. These sequences can be of a time series nature (e.g. stills from a video feed), but need not be. Examples include sequences of letters, words, or even items within a shopping cart.
 
 Recurrent neural networks (RNNs) handle such sequences through the use of dedicated hidden layers.
 To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
@@ -34,8 +34,12 @@ To build a RNN, let's get some terminology under our belts. Let *X* and *Y* repr
 
 ### References
 
+- Bezerra, Byron Leite Dantas, Cleber Zanchettin, and Vinícius Braga de Andrade. (2012). A Hybrid RNN Model for Cursive Offline Handwriting Recognition. Paper presented at 2012 Brazilian Symposium on Neural Networks (SBRN). Institute of Electrical and Electronics Engineers (IEEE). doi: 10.1109/SBRN.2012.41.
+
 - Karpathy, Andrej. [MachineLearner]. (2016, June 14th). *CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM*. Retrieved from https://www.youtube.com/watch?v=iX5V1WpxxkY.
 
 - Nguyễn, Giang. (2013, March 10th). *7 - 5 - Long-term Short-term-memory*. Retrieved from https://www.youtube.com/watch?v=izGl1YSH_JA.
 
 - Olah, Chris. (2015, August 27th). *Understanding LSTM Networks*. Retrieved from http://colah.github.io/posts/2015-08-Understanding-LSTMs/.
+
+
