@@ -1,15 +1,16 @@
 # Recurrent Neural Networks (RNN) & Long Short-Term Memory (LSTM) Models 
 **Benjamin S. Knight**, February 18th, 2017
 
-While [neural nets](https://en.wikipedia.org/wiki/Artificial_neural_network) excel at pattern recognition, certain types of problems require utilizing information from an observation's broader context. Deciphering hand-written text in cursive is one such example (Bezerra et al 2012). The task of identifying an individual character becomes far more tractable if we can also leverage classifications of the preceeding and subsequent characters as well. With these types of highly contextualized problems, pattern recognition effectively becomes sequence recognition. These sequences can be of a time series nature (e.g. stills from a video feed), but need not be. Examples include sequences of letters, words, or even items within a shopping cart.
+While [neural nets](https://en.wikipedia.org/wiki/Artificial_neural_network) excel at pattern recognition, certain types of problems require utilizing information from an observation's broader context. Deciphering hand-written text in cursive is one such example (Bezerra et al 2012). The task of identifying an individual character becomes far more tractable if we can also leverage classifications of the preceeding and subsequent characters as well. With these types of highly contextualized problems, pattern recognition effectively becomes sequence recognition. These sequences can be of a time series nature (e.g. stills from a video feed), but need not be. Examples include sequences of letters, words, or even items within a shopping cart. Recurrent neural networks (RNNs) handle such sequences through the use of dedicated hidden layers. RNNs can be configured in a variety of ways, ranging from many inputs to one output for a task such as sentiment analysis to a one-to-many network for image captioning.
 
-Recurrent neural networks (RNNs) handle such sequences through the use of dedicated hidden layers.
-To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
+Let us designate a specific hidden layer of nodes within the network as *h* subscripted by *t* for time step (although again, the elements within the sequence need not be a time series). A RNN then derives an array of weights *f* to be applied to the various interations between the values of the hidden layer corresponding to the previous time step and the inputs corresponding to the current time step. Then, depending on the number of desired outputs, the values from the hidden layer corresponding to the current time step are then passed on to the next hidden layer, to the output layer where they are weighted in turn, or both.    
 
 <p align="center"><b>Figure 1: Derivation of the RNN Weights</b></p>
 <div align="center">
 <img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN_Formulas.png" alt="The formulas used for creating the arrays of weights used by the recurrent neural network." width="506" height="118">
 </div>
+
+
 
 <p align="center"><b>Figure 2: A Many-to-One RNN with Sequences Three Elements in Length</b></p>
 <div align="center">
