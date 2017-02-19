@@ -4,10 +4,10 @@ RNNs are designed to handle sequences of information. Situating an input within 
 To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
 
 
-![](https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/RNN.gif)
+<p align="center"><b>Figure 1: A Many-to-One Recurrent Neural Network with Sequences Three Elements in Length </b></p>
+<img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif" alt="A recurrent neural net" width="740" height="385">
 
-## References
-### Recurrent Neural Networks & LSTM
+### References
 
 - Karpathy, Andrej. [MachineLearner]. (2016, June 14th). *CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM*. Retrieved from https://www.youtube.com/watch?v=iX5V1WpxxkY.
 
