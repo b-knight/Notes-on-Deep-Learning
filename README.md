@@ -6,16 +6,20 @@ While neural nets excel at pattern recognition, certain types of problems requir
 Recurrent neural networks (RNNs) handle such sequences through the use of dedicated hidden layers.
 To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
 
-<p align="center"><b>Figure 1: RNNs Employ Arrays of Weights Across Network Inputs and Sequence Elements</b></p>
+<p align="center"><b>Figure 1: Derivation of the RNN Weights</b></p>
 <div align="center">
-<img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN_Formulas.png" alt="The formulas used for creating the arrays of weights used by the recurrent neural network." width="460" height="107">
+<img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN_Formulas.png" alt="The formulas used for creating the arrays of weights used by the recurrent neural network." width="506" height="118">
 </div>
 
 <p align="center"><b>Figure 2: A Many-to-One RNN with Sequences Three Elements in Length</b></p>
+<div align="center">
 <img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif" alt="Throughput of a recurrent neural net." width="740" height="385">
+</div>
 
 <p align="center"><b>Figure 3: Required Inputs and Data Volume of a Standard Neural Network Versus a RNN</b></p>
+<div align="center">
 <img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/Vector_Length.jpg" alt="The data volume and computational cost or a recurrent neural network far exceeds that of a conventional neural network." width="640" height="356">
+</div>
 
 
 
@@ -23,7 +27,9 @@ To build a RNN, let's get some terminology under our belts. Let *X* and *Y* repr
 ## Long Short Term Memory (LSTM) Networks
 
 <p align="center"><b>Figure 4: Walk-Through of a LSTM Cell </b></p>
+<div align="center">
 <img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/LSTM.gif" alt="Walk-Through of a LSTM Cell">
+</div>
 
 
 ### References
