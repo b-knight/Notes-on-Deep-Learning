@@ -5,7 +5,7 @@ To build a RNN, let's get some terminology under our belts. Let *X* and *Y* repr
 
 
 
-![](https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/RNN.gif)
+![](https://github.com/b-knight/Notes-on-Deep-Learning/blob/master/img/RNN.gif)
 
 
 
