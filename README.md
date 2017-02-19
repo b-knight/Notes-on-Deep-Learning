@@ -1,9 +1,9 @@
-# Notes on Recurrent Neural Networks (RNN) & Long Short-Term Memory (LSTM) Models 
-#Benjamin S. Knight#
-Posted on February 18, 2017
+# Recurrent Neural Networks (RNN) & Long Short-Term Memory (LSTM) Models 
+**Benjamin S. Knight**, February 18th, 2017
 
-RNNs are designed to handle sequences of information. Situating an input within the context of a sequence allows the RNN to utilize context to better identify patterns in the data. These sequences can be of a time series nature (e.g. stills from a video feed), but need not be. Examples include sequences of letters or words, item IDs within a shopping cart, etc. <br>
+While neural nets excel at pattern recognition, certain types of problems require utilizing information from an observation's broader context. Deciphering hand-written text in cursive is one such example. The task of identifying an individual character becomes far more tractable if we can also leverage classifications of the preceeding and subsequent characters as well. With these types of highly contextualized problems, pattern recognition effectively becomes sequence recognition. These sequences can be of a time series nature (e.g. stills from a video feed), but need not be. Examples include sequences of letters, words, or even items within a shopping cart.
 
+Recurrent neural networks (RNNs) handle such sequences through the use of dedicated hidden layers.
 To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
 
 
