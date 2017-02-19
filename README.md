@@ -7,8 +7,14 @@ Recurrent neural networks (RNNs) handle such sequences through the use of dedica
 To build a RNN, let's get some terminology under our belts. Let *X* and *Y* represent our inputs, and outputs respectively. Let *h* represent the hidden layer subscripted by *t* - the element within the sequence. In this fashion,
 
 
-<p align="center"><b>Figure 1: A Many-to-One Recurrent Neural Network with Sequences Three Elements in Length </b></p>
-<img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif" alt="A recurrent neural net" width="740" height="385">
+<p align="center"><b>Figure 1: A Many-to-One RNN with Sequences Three Elements in Length</b></p>
+<img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif" alt="Throughput of a recurrent neural net" width="740" height="385">
+
+<p align="center"><b>Figure 2: Required Inputs and Data Volume of a Standard Neural Network Versus a RNN</b></p>
+<img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/Vector_Length.jpg" alt="The data volume and computational cost or a recurrent neural network far exceeds that of a conventional neural network.">
+
+
+
 
 ## Long Short Term Memory (LSTM) Networks
 
