@@ -1,7 +1,10 @@
 \documentclass[]{article}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
 \begin{document}
 
 
-\[F_{\beta} = \displaystyle\frac{(1+\beta^2)*\textrm{True Positive}}{(1+\beta^2)*\textrm{True Positive} + \beta^2*\textrm{False Negative} + \textrm{False Positive}}\]
-\[\textrm{where $\beta = 2$}\]
+\[h_t = f_W(h_{t-1}, X_t)\text{\phantom{aaaaaaaaaaaaaaa}}\]
+\[\downarrow \text{\phantom{aaaaaaaaaaaa}}\]
+\[\text{\phantom{aaaaaaa}}h_t = tanh(W_{hh}h_{t-1} + W_{xh}X_t) \text{\phantom{aaa}} \rightarrow \text{\phantom{aaa}} y_t = W_{hy}h_t\]
+
 \end{document}
