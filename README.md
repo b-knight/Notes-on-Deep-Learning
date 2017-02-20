@@ -10,7 +10,7 @@ Let us designate a specific hidden layer of nodes within the network as *h* subs
 <img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN_Formulas.png" alt="The formulas used for creating the arrays of weights used by the recurrent neural network." width="506" height="118">
 </div>
 
-
+For an example, imagine that we want to create a model that takes a word as an input and predicts whether the word is associated with positive feelings, i.e. sentiment analysis. Setting aside issues of capitalization and grammar, we can create a network with twenty-six inputs (the letters of the alphabet) and one output (a 'yes'/'no' positive sentiment boolean). If we wanted a network that could accommodate words three letters in length, then we would need three hidden layers - one layer for every element in the sequence. Figure 2 depicts what such a network would look like after being abridged to only suport three inputs.    
 
 <p align="center"><b>Figure 2: A Many-to-One RNN with Sequences Three Elements in Length</b></p>
 <div align="center">
