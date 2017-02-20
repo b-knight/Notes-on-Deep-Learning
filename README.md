@@ -25,9 +25,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Because we are modeling the interdependencies of the inputs not just relative to one another but also relative to their place within the sequence, a RNN will inevitably be more complex relative to a standard network. The three dimensions of inputs are:
 
-**1. Number of Features:** The number of possible values that an element within the sequence can assume.<br>
-**2. Sequence Length:** The number of timesteps the network must accomodate - corresponds to the number of hidden layers.<br> 
-**3. Batch Size:** How many observations to be propagated through the network at a given time. A full batch tends to yield the most accurate estimate of the gradient whereas mini-batches tend to be less accurate but also less expensive. 
+**1. Number of Features:** <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The number of possible values that an element within the sequence can assume.<br>
+**2. Sequence Length:** <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The number of timesteps the network must accomodate - corresponds to the number of hidden layers.<br> 
+**3. Batch Size:** <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How many observations to be propagated through the network at a given time. A full batch tends to yield the most <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; accurate estimate of the gradient whereas mini-batches tend to be less accurate but also less expensive. 
 <br>
 
 <div></div>
