@@ -44,8 +44,8 @@
 
 <br>
 ## The Vanishing Gradient Problem 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Another disadvantage of RNNs is that they are typically unable to discern patterns between elements far apart (10 timesteps or more) from one another within a sequence. This is due the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) a problem that afflicts any many-layered network, not just RNNs. 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Another disadvantage of RNNs is that they are typically unable to discern patterns between elements far apart (10 timesteps or more) from one another within a sequence. This is due the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) a problem that afflicts any many-layered network, not just RNNs. First identified by Sepp Hochreiter (Hochreiter, 1991), the vanishing gradient problem occurs over the process of [backpropagation](https://en.wikipedia.org/wiki/Backpropagation).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Neural networks typicaly utilize hyperbolic tangent functions which have gradients in the range (−1, 1). During backpropagation, the chain rule is invoked with the effect of multiplying these less-than-one values *n* times. The end result is the exponential decay of the gradient (error signal) as backpropagation proceeds from the output layers to the front layers. In practical terms, the front layers of a many-layered network will tend to train very slowly to the point of impracticality.
 
 ## Long Short Term Memory (LSTM) Networks
 
@@ -55,16 +55,16 @@
 </div>
 
 
-### References
+## References
 
 - Bezerra, Byron Leite Dantas, Cleber Zanchettin, and Vinícius Braga de Andrade. (2012). A Hybrid RNN Model for Cursive Offline Handwriting Recognition. Paper presented at 2012 Brazilian Symposium on Neural Networks (SBRN). Institute of Electrical and Electronics Engineers (IEEE). doi: 10.1109/SBRN.2012.41.
 
-- Karpathy, Andrej. [MachineLearner]. (2016, June 14th). *CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM*. Retrieved from https://www.youtube.com/watch?v=iX5V1WpxxkY.
+- Hochreiter, S. Untersuchungen zu dynamischen neuronalen Netzen. Diploma thesis, Institut f. Informatik, Technische Univ. Munich, 1991. Advisor: J. Schmidhuber.
 
-- Nguyễn, Giang. (2013, March 10th). *7 - 5 - Long-term Short-term-memory*. Retrieved from https://www.youtube.com/watch?v=izGl1YSH_JA.
+- Karpathy, Andrej. [MachineLearner]. (2016, June 14th). *CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM*. Retrieved from [https://www.youtube.com/watch?v=iX5V1WpxxkY](https://www.youtube.com/watch?v=iX5V1WpxxkY).
 
-- Olah, Chris. (2015, August 27th). *Understanding LSTM Networks*. Retrieved from http://colah.github.io/posts/2015-08-Understanding-LSTMs/.
+- Nguyễn, Giang. (2013, March 10th). *7 - 5 - Long-term Short-term-memory*. Retrieved from [https://www.youtube.com/watch?v=izGl1YSH_JA](https://www.youtube.com/watch?v=izGl1YSH_JA).
 
-- Patterson, Josh, and Adam Gibson. (2016). Deep Learning. Retrieved from https://www.safaribooksonline.com/library/view/deep-learning/9781491924570/.
+- Olah, Chris. (2015, August 27th). *Understanding LSTM Networks*. Retrieved from [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/).
 
-
+- Patterson, Josh, and Adam Gibson. (2016). Deep Learning. Retrieved from [https://www.safaribooksonline.com/library/view/deep-learning/9781491924570/](https://www.safaribooksonline.com/library/view/deep-learning/9781491924570/).
