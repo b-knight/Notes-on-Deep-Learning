@@ -23,18 +23,19 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Because we are modeling the interdependencies of the inputs not just relative to one another but also relative to their place within the sequence, a RNN will inevitably be more complex relative to a standard network. The three dimensions of inputs are:
 
-1. Number of Feature: The number of possible values that an element within the sequence can assume.
-2. Sequence Length: The number of timesteps the network must accomodate - corresponds to the number of hidden layers. 
-3. Batch Size: How many observations to be propagated through the network at a given time. A full batch tends to yield the most accurate estimate of the gradient whereas mini-batches tend to be less accurate but also less expensive. 
-
+**1. Number of Features:** The number of possible values that an element within the sequence can assume.
+**2. Sequence Length:** The number of timesteps the network must accomodate - corresponds to the number of hidden layers. 
+**3. Batch Size:** How many observations to be propagated through the network at a given time. A full batch tends to yield the most accurate estimate of the gradient whereas mini-batches tend to be less accurate but also less expensive. 
+<br>
 
 <p align="center"><b>Figure 3: Required Inputs and Data Volume of a Standard Neural Network Versus a RNN</b></p>
 <div align="center">
 <img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/Vector_Length.jpg" alt="The data volume and computational cost or a recurrent neural network far exceeds that of a conventional neural network." width="640" height="356">
 </div>
 
-VANISHING GRADIENT PROBLEM
-Recurrent neural networks are known to have issues with the “vanishing gradient problem”. This issue occurs when the gradients get too large or too small and make it difficult to model long-range dependencies (10 timesteps or more) in the structure of the input dataset [27]. The most effective way to get around this issue in recurrent neural networks is to use the Long Short-Term Memory (LSTM) variant of recurrent neural networks which DL4J supports.
+<br>
+## The Vanishing Gradient Problem 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Another disadvantage of RNNs is that they are typically unable to discern patterns between elements far apart (10 timesteps or more) from one another within a sequence. This is due the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) a problem that afflicts any many-layered network, not just RNNs. 
 
 
 ## Long Short Term Memory (LSTM) Networks
@@ -54,5 +55,7 @@ Recurrent neural networks are known to have issues with the “vanishing gradien
 - Nguyễn, Giang. (2013, March 10th). *7 - 5 - Long-term Short-term-memory*. Retrieved from https://www.youtube.com/watch?v=izGl1YSH_JA.
 
 - Olah, Chris. (2015, August 27th). *Understanding LSTM Networks*. Retrieved from http://colah.github.io/posts/2015-08-Understanding-LSTMs/.
+
+- Patterson, Josh, and Adam Gibson. (2016). Deep Learning. Retrieved from https://www.safaribooksonline.com/library/view/deep-learning/9781491924570/.
 
 
