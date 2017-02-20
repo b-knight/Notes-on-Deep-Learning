@@ -15,7 +15,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For an example, imagine that we want to create a model that takes a word as an input and predicts whether the word is associated with positive feelings, i.e. sentiment analysis. Setting aside issues of capitalization and grammar, we can create a network with twenty-six inputs (the letters of the alphabet) and one output (a 'yes'/'no' positive sentiment boolean). If we wanted a network that could accommodate words three letters in length, then we would need three hidden layers - one layer for every element in the sequence. Figure 2 depicts what such a network would look like after being abridged to only suport three inputs.
 <br>
 
-<div></div>
+<br>
 <p align="center"><b>Figure 2: A Many-to-One RNN with Sequences Three Elements in Length</b></p>
 <div align="center">
 <img src="https://github.com/b-knight/Notes-on-Deep-Learning/raw/master/Images/RNN.gif" alt="Throughput of a recurrent neural net." width="740" height="385">
@@ -28,10 +28,10 @@
 **1. Number of Features:** <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The number of possible values that an element within the sequence can assume.<br>
 **2. Sequence Length:** <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The number of timesteps the network must accomodate - corresponds to the number of hidden layers.<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The number of timesteps the network must accomodate - corresponds to the number of <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hidden layers.<br> 
 **3. Batch Size:** <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How many observations to be propagated through the network at a given time. A full batch tends to yield the most <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; accurate estimate of the gradient whereas mini-batches tend to be less accurate but also less expensive. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How many observations to be propagated through the network at a given time. A full batch <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tends to yield the most accurate estimate of the gradient whereas mini-batches tend to be less accurate but also less expensive. 
 <br>
 
 <div></div>
