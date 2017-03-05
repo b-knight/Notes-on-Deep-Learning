@@ -63,8 +63,6 @@
 
 - Karpathy, Andrej. [MachineLearner]. (2016, June 14th). *CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM*. Retrieved from [https://www.youtube.com/watch?v=iX5V1WpxxkY](https://www.youtube.com/watch?v=iX5V1WpxxkY).
 
-- Nguyễn, Giang. (2013, March 10th). *7 - 5 - Long-term Short-term-memory*. Retrieved from [https://www.youtube.com/watch?v=izGl1YSH_JA](https://www.youtube.com/watch?v=izGl1YSH_JA).
-
 - Olah, Chris. (2015, August 27th). *Understanding LSTM Networks*. Retrieved from [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/).
 
 - Patterson, Josh, and Adam Gibson. (2016). Deep Learning. Retrieved from [https://www.safaribooksonline.com/library/view/deep-learning/9781491924570/](https://www.safaribooksonline.com/library/view/deep-learning/9781491924570/).
